@@ -1,47 +1,110 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <meta charset="UTF-8">
-	   <link rel="stylesheet" href="style.css">
-       <title>Free Courses</title>
-    </head>
-    <body>
-        
-      <div class="container">
-      <a href="https://www.coursera.org/courses?query=free"><img src="" alt="Coursera" class="image"></a>
-      <div class="overlay">
-      <div class="text">Coursera</div>
-      </div>
-      </div>
-        
-      <div class="container">
-      <a href="https://www.codingninjas.com/courses"><img src="" alt="Coding Ninja" class="image"></a>
-      <div class="overlay">
-      <div class="text">Coding Ninja</div>
-      </div>
-      </div>
-        
-      <div class="container">
-      <a href="https://www.udacity.com/courses/all"><img src="" alt="Udacity" class="image"> </a>
-      <div class="overlay">
-      <div class="text">Udacity</div>
-      </div>
-      </div>
-        
-       <div class="container">
-       <a href="https://progate.com/courses"><img src="" alt="Progate" class="image" ></a>
-       <div class="overlay">
-       <div class="text">Progate</div>
-       </div>
-       </div>
-        
-       <div class="container">
-       <a href="https://www.udemy.com/courses/development/"><img src="" alt="Udemy" class="image" ></a>
-       <div class="overlay">
-       <div class="text">Udemy</div>
-       </div>
-       </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="Courses.scss">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Online Courses</title>
+</head>
+<body>
+	<a href="#" id="scroll" style="display: none;"><span></span></a>
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
-    </body>
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+          <li data-target="#demo" data-slide-to="4"></li>
+          <li data-target="#demo" data-slide-to="5"></li>
 
+
+
+        </ul>
+      
+        
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img  class=" images" src="https://i.pinimg.com/originals/da/8d/28/da8d287d2cf4941ed9f77b4c9e60225f.jpg" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img class="images img-fluid" src="https://www.digitaldesignjournal.com/wp-content/uploads/2018/10/img_5bc054af90786.png" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img class="images img-fluid" src="https://www.yourtango.com/sites/default/files/styles/header_slider/public/image_blog/MotivationalQuotesInstagramCaptions.jpg?itok=p__Cfvh2" alt="New York">
+          </div>
+          <div class="carousel-item active">
+            <img class="images img-fluid" src="https://hdfreewallpaper.net/wp-content/uploads/2015/09/motivation-motivational-quotes-poster-wallpaper-free-hd-for-desktop.jpg" alt="New York">
+          </div>
+          <div class="carousel-item">
+            <img class="images img-fluid" src="https://www.designyourway.net/blog/wp-content/uploads/2016/07/Change-1.jpg" alt="New York">
+          </div>
+          <div class="carousel-item">
+                <img class="images img-fluid" src="https://www.thecoderpedia.com/wp-content/uploads/2019/10/MaxPixel.net-Business-Blogger-Beverage-Coffee-Blog-Break-3157395.jpg" alt="New York">
+          </div>
+          
+          
+          
+        </div>
+      
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      
+      </div>
+
+
+      <div class="  row">
+          <div class=" course col-lg-4 col-md-6 col-xs-12 mg">
+        <img src="https://files.codingninjas.in/0000000000000723.jpg" alt="Avatar" class="image img-fluid" style="width:100%">
+        <div class="middle">
+          <div class="text"><a href="https://www.codingninjas.com/" style="color: aliceblue;"><b>Coding Ninjas</b></div></a>
+        </div>
+    </div>
+
+    <div class="  course  col-lg-4 col-md-6 col-xs-12 mg">
+        <img src="https://www.androidcentral.com/sites/androidcentral.com/files/styles/large/public/article_images/2020/04/coursera-classes.jpg?itok=yw-NlCvl" alt="Avatar" class="image img-fluid" style="width:100%">
+        <div class="middle">
+          <div class="text"><a href="https://coursera.org" style="color: aliceblue;"><b>Coursera</b></div></a>
+        </div>
+    </div>
+    <div class="  course  col-lg-4 col-md-6 col-xs-12 mg">
+        <img src="https://pbs.twimg.com/profile_images/1145723944776810496/TiXV8CSN_400x400.png" alt="Avatar" class="image img-fluid" style="width:100%">
+        <div class="middle">
+            <div class="text"><a href="https://udemy.com" style="color: aliceblue;"><b>Udemy</b></div></a>
+        </div>
+    </div>
+    <div class="  course col-lg-4 col-md-6 col-xs-12 mg">
+        <img src="https://i.pinimg.com/originals/c6/cd/01/c6cd016402e311d01dd2eec7361ee0e7.gif" alt="Avatar" class="image img-fluid" style="width:100%">
+        <div class="middle">
+            <div class="text"><a href="https://udacity.com" style="color: aliceblue;"><b>Udacity</b></div></a>
+        </div>
+    </div>
+    <div class="  course col-lg-4 col-md-6 col-xs-12 mg">
+        <img src="https://news.mit.edu/sites/mit.edu.newsoffice/files/styles/news_article_image_top_slideshow/public/images/2012/20120501141221-1_0.jpg?itok=onJ6BJGK" alt="Avatar" class="image img-fluid" style="width:100%">
+        <div class="middle">
+            <div class="text"><a href="https://edx.org" style="color: aliceblue;"><b>EDX COURSES</b></div></a>
+        </div>
+    </div>
+    <div class="  course col-lg-4 col-md-6 col-xs-12 mg">
+        <img src="https://images.yalwa.in/1048717418/Coding-Blocks-Pvt-Ltd_1.jpg" alt="Avatar" class="image img-fluid" style="width:100%">
+        <div class="middle">
+            <div class="text"><a href="https://codingblocks.com" style="color: aliceblue;"><b>Coding Blocks</b></a></div>
+        </div>
+    </div>
+      </div>
+      <script src="Courses.js"></script>
+</body>
 </html>
