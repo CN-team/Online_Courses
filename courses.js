@@ -11,4 +11,4 @@ $(document).ready(function(){
         return false; 
     }); 
 });
-alert("JAI MATA  DI");
+alert("Never Say Never");
