@@ -11,4 +11,3 @@ $(document).ready(function(){
         return false; 
     }); 
 });
-alert("Keep Learning");
